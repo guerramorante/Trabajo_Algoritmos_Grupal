@@ -24,17 +24,17 @@ Entrada
 Resultado: REAL     # La media aritmética de las notas 
 
 Precondición
-   # Una nota está comprendida entre 0 y 20
+   #Una nota está comprendida entre 0 y 20
    0 ≤ nx ≤ 20
-   # La cantidad de notas es mayor o igual a 1
+   #La cantidad de notas es mayor o igual a 1
    1 ≤ k
 Poscondición
    El resultado se obtiene de la media aritética de todas las notas, es decir, la suma de n1, n2, n3 y n4 entre el cociente k.
 
 Realización
-   # Cálculo de la media de notas
+   #Cálculo de la media de notas
    m = (n1 + n2 + n3 + n4) / 4
-   # Cálculo de la decisión
+   #Cálculo de la decisión
    si m > 15
       entonces
          print("Alumno con talento")
